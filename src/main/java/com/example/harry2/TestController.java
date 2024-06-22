@@ -15,4 +15,9 @@ public class TestController {
     public String test12() {
         return "test12";
     }
+
+    @GetMapping("test13")
+    public String test13() {
+        return "이해규천재";
+    }
 }
