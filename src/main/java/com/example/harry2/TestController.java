@@ -18,6 +18,11 @@ public class TestController {
 
     @GetMapping("test13")
     public String test13() {
-        return "이해규천재";
+        return "haekyu";
+    }
+
+    @GetMapping("test14")
+    public String test14() {
+        return "english?";
     }
 }
