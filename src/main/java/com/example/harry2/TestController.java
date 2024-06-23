@@ -25,4 +25,9 @@ public class TestController {
     public String test14() {
         return "english?";
     }
+
+    @GetMapping("test15")
+    public String test15() {
+        return "한국어?";
+    }
 }
