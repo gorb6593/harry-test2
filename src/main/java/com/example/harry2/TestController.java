@@ -30,4 +30,9 @@ public class TestController {
     public String test15() {
         return "한국어?";
     }
+
+    @GetMapping("test16")
+    public String test16() {
+        return "한국어?!@#!@#@!#!@#\nkasdhbasdhkjbasdㅁ나오ㅓㅠㅁㄴㅇ";
+    }
 }
